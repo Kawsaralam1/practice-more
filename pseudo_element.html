@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3::after{
+            content:'.pdf';
+            color:blueviolet;
+            background-color: aquamarine;
+            font-size:10px;
+        }
+        h3::before{
+            content:'Start: ';
+        }
+        p::first-letter{
+            color:tomato;
+            font-size:2em;
+        }
+        p::first-line{
+            background-color:skyblue;
+        }
+        input::placeholder{
+            color:red;
+        }
+        ::selection{
+            background-color:chocolate;
+        }
+    </style>
+</head>
+<body>
+   <h3>Heading-1</h3>
+   <h3>Heading-2</h3>
+   <h3>Heading-3</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo illo mollitia natus provident labore pariatur optio necessitatibus perferendis excepturi aliquid.</p>
+    <p>Error rerum in eveniet quod? Deserunt, sint sit pariatur ducimus perferendis dicta voluptatibus voluptas voluptates, sunt itaque reprehenderit, error atque!</p>
+    <p>Qui sapiente, repudiandae a atque iusto dolorem magnam doloremque, perspiciatis tenetur ipsa corporis provident sit quisquam blanditiis. Autem, doloribus distinctio.</p>
+    <button onclick="welcome()" class="btn">Get Discounts</button>
+    <script>
+        //alert('welcome to my website');
+        function welcome(){
+            alert('code : SUMMER15');
+        }
+    </script>
+</body>
+</html>
